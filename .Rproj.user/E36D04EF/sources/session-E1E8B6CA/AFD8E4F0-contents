@@ -1,0 +1,60 @@
+########################################################
+############## Aula 09 - Políticas Públicas ############
+
+
+library(tidyverse)
+library(tidyquant)
+library(kableExtra)
+
+
+## Fluxo de 5 anos: 100, 200, 400, 600 e 700.
+
+bpol = tribble(~ano, ~fluxo, 
+               1, 100,
+               2, 200,
+               3, 400,
+               4, 600,
+               5, 700)
+
+bpol
+
+# Valor presente do benefício
+
+r = .05
+
+bpol_vp = bpol %>%
+  mutate(vp = fluxo/(1+r)^ano) %>%
+  select(vp) %>%
+  sum()
+
+print(bpol_vp)
+
+# Incluir o fluxo de custos
+
+cpol = tribble(~ano, ~fluxo,
+               1, 520,
+               2, 200,
+               3, 200,
+               4, 260,
+               5, 300)
+
+cpol
+
+# Valor presente do custo
+
+cpol_vp = cpol %>%
+  mutate(vp = fluxo/(1+r)^ano) %>%
+  select(vp) %>%
+  sum()
+
+print(cpol_vp)
+
+# Cálculo do VPL
+
+print(bpol_vp - cpol_vp)
+
+# Cálculo da TIR
+
+fluxo_liquido = bpol$fluxo - cpol$fluxo
+
+tidyquant::IRR(fluxo_liquido)

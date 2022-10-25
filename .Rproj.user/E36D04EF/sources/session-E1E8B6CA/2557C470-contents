@@ -1,0 +1,19 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/company/an%C3%A1lise-macro/
+    - icon: github
+      text: Github
+      href: https://github.com/analisemacro
+---
+
+A Análise Macro é um sonho acalentado durante muito tempo. Acreditamos que a teoria não pode estar dissociada da prática. Por isso, em março de 2011, nasceu o nosso blog, cujo objetivo era prover análises das mais variadas áreas e indicadores da conjuntura econômica para estudantes e professores interessados em aprimorar seus conhecimentos práticos. A partir de 2015, passamos a publicar exercícios macroeconométricos regulares usando o poder do R. Recebemos muitos comentários, elogios e pedidos de scripts.
+
+A boa aceitação desses exercícios nos fez perceber que nossos alunos, professores e profissionais de mercado têm grande interesse por ferramentas estatísticas e econométricas. Eles simplesmente adoram ver como a teoria pode andar em conjunto com os dados! Não tivemos dúvidas: era hora de ofertar um curso de introdução à análise de dados que fosse diferente, que fizesse a ponte entre a teoria e a prática, que fosse aplicado e intuitivo para quem nunca teve contato, nem jamais pensou em aprender esse tipo de coisa. Nasceu o nosso carro-chefe: o Curso de Introdução ao R com aplicações em Análise de Conjuntura. Com mais de 2.000 alunos formados, temos enorme prazer em perceber o impacto que o R, a linguagem criada para data analysis, teve em suas vidas.
+
+O passo seguinte é esse que você está vendo, leitor: o blog virou uma empresa que pretende contribuir para a melhoria de desempenho de cada vez mais estudantes, professores e profissionais de mercado. Queremos fazer parte de uma revolução: mostrar para as pessoas que a verdade está nos dados. Sempre esteve. E para ter acesso a ela é preciso ter domínio sobre as etapas de coleta, tratamento, análise e apresentação de dados. Nossa missão é, portanto, lhe ajudar nesse processo. Para isso, temos cursos pré-formatados que são ofertados de maneira on-line, ministramos cursos na modalidade in company, oferecemos consultoria customizada para necessidades específicas e criamos o Clube do Código, local onde são divulgados todos os códigos de nossos relatórios, apresentações e exercícios.
