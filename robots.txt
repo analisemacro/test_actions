@@ -1,0 +1,1 @@
+Sitemap: https://github.com/analisemacro/test_actions/sitemap.xml
