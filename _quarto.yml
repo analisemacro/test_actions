@@ -12,7 +12,7 @@ website:
         href: https://github.com/analisemacro/blog_rstudio
 format:
   html:
-    theme: quartz
+    theme: zephyr
     css: styles.css
 
 editor: visual
